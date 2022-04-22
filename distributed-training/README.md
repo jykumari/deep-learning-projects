@@ -97,12 +97,12 @@ It has been demonstrated that the distributed training using two GPUs is ~2x fas
 
 Wall time for single GPU machine: 57min 32s
 
-  - [homework09-1GPU.ipynb](https://github.com/jkumariucb/w251-hw09/blob/main/homework09-1GPU.ipynb)
+  - [1GPU.ipynb](https://github.com/jykumari/deep-learning-projects/blob/main/distributed-training/one-GPU.ipynb)
 
 Wall time with DDP (Distribute Data-Parallel Training): 31min 18s
 
-  - [homework09-ddp-1.ipynb](https://github.com/jkumariucb/w251-hw09/blob/main/homework09-ddp-1.ipynb)
-  - [homework09-ddp-2.ipynb](https://github.com/jkumariucb/w251-hw09/blob/main/homework09-ddp-2.ipynb)
+  - [ddp-1.ipynb](https://github.com/jykumari/deep-learning-projects/blob/main/distributed-training/ddp-1.ipynb)
+  - [ddp-2.ipynb](https://github.com/jykumari/deep-learning-projects/blob/main/distributed-training/ddp-2.ipynb)
 
 
 *D. Monitor the GPU utilization using nvidia-smi (Recommended)*
@@ -111,14 +111,14 @@ Wall time with DDP (Distribute Data-Parallel Training): 31min 18s
 
 *Below two files show that GPU utilization on both instances are > 95%*
 
-  - [GPU1-utilization.png](https://github.com/jkumariucb/w251-hw09/blob/987b07045eda3f12324d42b188788adfa76f3df4/GPU1-utilization.png)
-  - [GPU2-utilization.png](https://github.com/jkumariucb/w251-hw09/blob/main/GPU2-utilization.png)
+  - [GPU1-utilization.png](https://github.com/jykumari/deep-learning-projects/blob/main/distributed-training/GPU1-utilization.png)
+  - [GPU2-utilization.png](https://github.com/jykumari/deep-learning-projects/blob/main/distributed-training/GPU2-utilization.png)
 
 *Visualization using Tensorboard and Weights & Biases:*
 
-  - [tensorboard_visualization](https://github.com/jkumariucb/w251-hw09/blob/main/tensorboard_visualization.ipynb)
-  - [Homework 9 - Distributed training – Weights & Biases.pdf](https://github.com/jkumariucb/w251-hw09/blob/main/Homework%209%20-%20Distributed%20training%20%E2%80%93%20Weights%20%26%20Biases.pdf)
+  - [tensorboard_visualization](https://github.com/jykumari/deep-learning-projects/blob/main/distributed-training/tensorboard_visualization.ipynb)
+  - [Distributed training – Weights & Biases.pdf](https://github.com/jykumari/deep-learning-projects/blob/main/distributed-training/Distributed%20training%20%E2%80%93%20Weights%20%26%20Biases.pdf)
 
 *Run using Tensorboard or Weights and Biases*
 
-  - [Run using Tensorboard or Weights and Biases](https://github.com/jkumariucb/w251-hw09/tree/main/run)
+  - [Run using Tensorboard or Weights and Biases](https://github.com/jykumari/deep-learning-projects/tree/main/distributed-training/run)
