@@ -1,11 +1,11 @@
 
-#### Goal:
+### Goal:
 
 The goal of this project is to train an image classification network on the ImageNet dataset to the Top 1 accuracy of 60% or higher.
 
 PyTorch framework have been used for the training.
 
-#### The steps:
+### The steps:
 
 **I. Procure a virtual machine in AWS** - a T4 GPU and 1 TB of space (e.g. g4dn.2xlarge)has been used for this project.
  Use the Nvidia Deep Learning AMI so that the pre-requisites are pre-installed.
@@ -44,7 +44,7 @@ find . -name "*.tar" | while read NAME ; do mkdir -p "${NAME%.tar}"; tar -xvf "$
 
 **IV. Start training && observe progress!**
 
-#### Model setup:
+### Model setup:
 - Architecture used: resnet50
 - Optimizer used: SGD
 - What should the learning rate and lr_decay be? learning rate set to drop 10x every 33% of training time.
