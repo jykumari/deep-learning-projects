@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: package-logger-deployment
+spec:
+  selector:
+    matchLabels:
+      app: package-logger
+  replicas: 1 # tells deployment to run 1 pods matching the template
+  template:
+    metadata:
+      labels:
+        app: package-logger
+    spec:
+      containers:
+      - name: package-logger
+        image: jkumariucb/package-logger:v1

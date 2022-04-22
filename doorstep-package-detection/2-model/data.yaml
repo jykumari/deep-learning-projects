@@ -1,0 +1,5 @@
+train: ../train/images
+val: ../test/images
+
+nc: 3
+names: ['box', 'plastic_bag', 'envelope']
