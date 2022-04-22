@@ -11,12 +11,14 @@ I. Procure a virtual machine in AWS - a T4 GPU and 1 TB of space (e.g. g4dn.2xla
  Use the Nvidia Deep Learning AMI so that the pre-requisites are pre-installed.
 
 II. Data download - Download the ImageNet dataset to your VM.
+
 Data downloading - Training and test data:
 curl https://w251hw05.s3-us-west-1.amazonaws.com/ILSVRC2012_img_train.tar --output ILSVRC2012_img_train.tar
 curl https://w251hw05.s3-us-west-1.amazonaws.com/ILSVRC2012_img_val.tar --output ILSVRC2012_img_val.tar
 
 
 III. Prepare the dataset:
+
 - create train and val subdirectories and move the train and val tar files to their respective locations
 - untar both files and remove them as you no longer need them
 - Use the following shell script to process your val directory. It simply moves your validation set into proper subfolders
