@@ -1,5 +1,6 @@
 
 **Goal:**
+
 The goal of this project is to train an image classification network on the ImageNet dataset to the Top 1 accuracy of 60% or higher.
 
 PyTorch framework have been used for the training.
